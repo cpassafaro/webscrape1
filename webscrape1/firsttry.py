@@ -7,7 +7,7 @@ my_url='https://www.newegg.com/GPUs-Video-Graphics-Devices/Category/ID-38'
 uClient = uReq(my_url)
 
 # offloads content into var
-# page_html = uClient.read()
+page_html = uClient.read()
 
 uClient.close()
 
